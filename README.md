@@ -1,2 +1,2 @@
-# ALG_at001
- Atividade Aula 02
+# ALG_ex-aula02
+Exercícios Aula 02
