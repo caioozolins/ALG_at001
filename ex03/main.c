@@ -1,17 +1,15 @@
 #include <stdio.h>
 #include <locale.h>
 
-#include <stdio.h>
-
 int main()
 {
   setlocale(LC_ALL, "portuguese");
   char caracter;
   printf("Digite um caracter: ");
   scanf("%c", &caracter);
-  printf("O código ASCII em decimal é %d\n", caracter);
-  printf("O código ASCII em octal é %o\n", caracter);
-  printf("O código ASCII em hexadecimal é %x\n", caracter);
+  printf("O cÃ³digo ASCII em decimal Ã© %d\n", caracter);
+  printf("O cÃ³digo ASCII em octal Ã© %o\n", caracter);
+  printf("O cÃ³digo ASCII em hexadecimal Ã© %x\n", caracter);
   
   return 0;
 }
